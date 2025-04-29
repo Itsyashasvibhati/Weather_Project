@@ -212,7 +212,7 @@ const weatherIcon = document.querySelector(".weather-icon ")
         
         document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
-        if(data.weather[0].main == "Clouds"){
+        if(data.weather[0].main == "Clouds") {
             weatherIcon.src = "sun.png";
         }
         else if(data.weather[0].main == "Clear"){
